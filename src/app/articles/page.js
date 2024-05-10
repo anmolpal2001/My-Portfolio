@@ -5,7 +5,7 @@ import Layout from "@/components/Layout";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useRef } from "react";
-import article1 from "@/images/project1.png";
+import article1 from "@/projects/tictactoe.png";
 import { motion, useMotionValue } from "framer-motion";
 
 const FramerImage = motion(Image);
