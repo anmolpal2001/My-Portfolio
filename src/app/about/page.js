@@ -50,23 +50,24 @@ const About = () => {
               Biography
             </h2>
             <p className="font-medium">
-              Hi, I'm CodeBucks, a web developer and UI/UX designer with a
+              Hi, I'm Anmol Pal, a web developer and UI/UX designer with a
               passion for creating beautiful, functional, and user-centered
-              digital experiences. With 4 years of experience in the field. I am
-              always looking for new and innovative ways to bring my clients'
-              visions to life.
+              digital experiences. I am always looking for new and innovative ways to bring innovative solutions to life.
             </p>
             <p className="font-medium my-4">
               I believe that design is about more than just making things look
               pretty – it's about solving problems and creating intuitive,
               enjoyable experiences for users.{" "}
             </p>
-            <p className="font-medium">
+            <p className="font-medium mb-4">
               Whether I'm working on a website, mobile app, or other digital
               product, I bring my commitment to design excellence and
               user-centered thinking to every project I work on. I look forward
               to the opportunity to bring my skills and passion to your next
               project.
+            </p>
+            <p className="font-medium">
+            I eagerly anticipate the chance to channel my skills and enthusiasm into your upcoming project. Let's collaborate and create something extraordinary together!
             </p>
           </div>
           <div className="col-span-1 relative h-max rounded-2xl border-2 border-solid border-dark bg-light p-8 dark:border-light dark:bg-dark lg:order-1 md:col-span-2">
