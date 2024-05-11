@@ -13,6 +13,7 @@ import knowledgehub from "@/projects/knowledgehub.png";
 import startxup from "@/projects/startxup.png";
 import tictactoe from "@/projects/tictactoe.png";
 import reactmeals from "@/projects/reactmeals.png";
+import HireMe from "@/components/HireMe";
 
 const FramerImage = motion(Image);
 
@@ -82,6 +83,8 @@ const Project = ({ title, type, img, link, github }) => {
           className="w-full h-auto"
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.2 }}
+          priority
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
         />
       </Link>
       <div className="w-full flex flex-col items-start justify-between mt-4">
@@ -180,6 +183,7 @@ const Projects = () => {
           </div>
         </div>
       </Layout>
+      <HireMe />
     </main>
   );
 };

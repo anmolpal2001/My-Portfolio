@@ -189,20 +189,20 @@ const Navbar = () => {
             /> */}
           </nav>
 
-          <nav className="flex mt-2 items-center justify-center flex-wrap">
+          <nav className="flex mt-2 items-center justify-center flex-wrap p-6 rounded-full dark:bg-dark">
             <motion.a
               href="https://twitter.com/anmolpal_001"
               target="_blank"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
-              className="w-6 mr-3 sm:mx-1"
+              className="sm:w-6 w-12 mr-3 sm:mx-1"
             >
               <TwitterIcon />
             </motion.a>
             <motion.a
               href="https://github.com/anmolpal2001"
               target="_blank"
-              className="w-6 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
+              className="sm:w-6 w-12 mx-3 bg-light rounded-full dark:bg-dark sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -211,7 +211,7 @@ const Navbar = () => {
             <motion.a
               href="https://www.linkedin.com/in/anmolpal001/"
               target="_blank"
-              className="w-6 mx-3 sm:mx-1"
+              className="sm:w-6 w-12 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -220,7 +220,7 @@ const Navbar = () => {
             <motion.a
               href="https://www.instagram.com/mr.pal_30/"
               target="_blank"
-              className="w-8 mx-3 bg-primary rounded-full sm:mx-1"
+              className="sm:w-6 w-12 mx-3 bg-primary rounded-full sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -229,7 +229,7 @@ const Navbar = () => {
             <motion.a
               href="https://www.facebook.com/anmol.pal.3958914/"
               target="_blank"
-              className="w-8 mx-3 sm:mx-1"
+              className="sm:w-6 w-12 mx-3 sm:mx-1"
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -237,14 +237,14 @@ const Navbar = () => {
             </motion.a>
             <button
               onClick={() => setMode(mode === "light" ? "dark" : "light")}
-              className={`ml-3 flex items-center justify-center rounded-full p-1 ${
+              className={`sm:ml-0 ml-3 flex items-center justify-center rounded-full p-1 ${
                 mode === "light" ? "bg-dark text-light" : "bg-light text-dark"
               }`}
             >
               {mode === "dark" ? (
-                <SunIcon className="fill-dark" />
+                <SunIcon className="fill-dark sm:w-6 w-12" />
               ) : (
-                <MoonIcon className="fill-dark" />
+                <MoonIcon className="fill-dark sm:w-6 w-12" />
               )}
             </button>
           </nav>

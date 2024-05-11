@@ -9,6 +9,7 @@ import { useInView, useMotionValue, useSpring } from "framer-motion";
 import Skills from "@/components/Skills";
 import Experience from "@/components/Experience";
 import Education from "@/components/Education";
+import HireMe from "@/components/HireMe";
 
 const AnimatedNumbers = ({value}) => {
     const ref = useRef(null)
@@ -99,6 +100,7 @@ const About = () => {
         <Experience/>
         <Education/>
       </Layout>
+      <HireMe />
     </main>
   );
 };
