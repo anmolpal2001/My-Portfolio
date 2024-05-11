@@ -9,10 +9,10 @@ import lightBulb from "../../public/miscellaneous_icons_1.svg"
 
 export default function Home() {
   return (
-    <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
+    <main className="flex items-center text-dark w-full min-h-screen dark:text-light xl:items-start">
       <Layout classname="pt-0 md:pt-16 sm:pt-8">
-        <div className="flex items-start justify-between w-full lg:flex-col">
-          <div className="w-1/2 lg:w-full lg:inline-block lg:mb-8 lg:px-0 2xl:px-8">
+        <div className="flex items-start justify-between w-full lg:flex-col gap-8">
+          <div className="w-1/2 lg:w-full lg:inline-block lg:mb-8 lg:px-0">
             <Image src={profilePic} alt="AnmolPal" className="w-full rounded-3xl h-auto" 
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
