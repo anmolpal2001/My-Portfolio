@@ -11,9 +11,9 @@ export default function Home() {
   return (
     <main className="flex items-center text-dark w-full min-h-screen dark:text-light">
       <Layout classname="pt-0 md:pt-16 sm:pt-8">
-        <div className="flex items-center justify-between w-full lg:flex-col">
-          <div className="w-1/2 lg:w-full lg:mb-8 lg:px-0 2xl:px-8">
-            <Image src={profilePic} alt="AnmolPal" className="w-full rounded-3xl h-auto lg:inline-block lg:w-full" 
+        <div className="flex items-start justify-between w-full lg:flex-col">
+          <div className="w-1/2 lg:w-full lg:inline-block lg:mb-8 lg:px-0 2xl:px-8">
+            <Image src={profilePic} alt="AnmolPal" className="w-full rounded-3xl h-auto" 
             priority
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
             />
